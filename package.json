@@ -4,7 +4,9 @@
   "description": "\" Quote Android App Backed\u001b[Dn\u001b[D\u001b[D\u001b[C\u001b[Cd\u001b[D\u001b[D\u001b[D-end \"",
   "main": "main.js",
   "scripts": {
-    "test": "node main.js"
+    "test": "node main.js" ,
+    "start": "node main.js"
+
   },
   "repository": {
     "type": "git",
