@@ -2,6 +2,7 @@ const app = require('express')()
 const moment = require('moment');
 const admin = require("firebase-admin");
 const serviceAccount = require("./level-facility-247411-firebase-adminsdk-xpf87-92353f8b85.json");
+const PORT = process.env.port || 3000
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
@@ -42,6 +43,6 @@ app.get('/' ,  ( req , res ) => {
 })
 
 
-app.listen(3000 , () => {
+app.listen(PORT , () => {
     console.log(" server is running ");
 })
