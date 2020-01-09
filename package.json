@@ -1,0 +1,25 @@
+{
+  "name": "quote",
+  "version": "0.1.0",
+  "description": "\" Quote Android App Backed\u001b[Dn\u001b[D\u001b[D\u001b[C\u001b[Cd\u001b[D\u001b[D\u001b[D-end \"",
+  "main": "main.js",
+  "scripts": {
+    "test": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sihamza/Quote-Backend.git"
+  },
+  "author": "Jouini hamza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sihamza/Quote-Backend/issues"
+  },
+  "homepage": "https://github.com/sihamza/Quote-Backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "firebase-admin": "^8.9.0",
+    "moment": "^2.24.0",
+    "request-promise": "^4.2.5"
+  }
+}
