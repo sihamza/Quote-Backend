@@ -1,8 +1,11 @@
 const app = require('express')()
 const moment = require('moment');
 const admin = require("firebase-admin");
+const cors = require('cors') ;
 const serviceAccount = require("./level-facility-247411-firebase-adminsdk-xpf87-92353f8b85.json");
 const port  = process.env.PORT || 8080
+
+app.use(cors())
 
 admin.initializeApp({
   credential: admin.credential.cert(serviceAccount),
